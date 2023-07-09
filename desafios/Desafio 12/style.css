@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Permanent+Marker&display=swap');
+@font-face {
+    font-family: 'Droid';
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to bottom, #69DB9A , #22BC65 60%);   
+}
+h1#titulo{
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+    font-size: 30px;
+    font-weight: bold;
+}
+p#subtitulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.671);
+    font-weight: bolder;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: #69DB9A;
+}
+main{
+    margin: auto;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px;
+    word-spacing: 2px;
+    text-indent: 20px;
+    text-align: justify;
+    border-radius: 10px;
+}
+.droid{
+    font-family: 'Droid';
+    color: #0F542D;
+    padding: 10px;
+}
+
+img{
+    width: 600px;
+}
+.dandrois{
+    color: #0F542D;
+}
+img#irina{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+img#bugdroid{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+iframe#video{
+    padding: 20px;   
+    background-color: #0F542D;
+    margin: 10px;
+}
+p#extra{
+    background-color: #2AE566;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-indent: 10px;
+    border-radius: 10px;
+    
+}
+div{
+    background-color: #52F9AF;
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+p#texto-extra{
+    padding: 10px;
+}
+p{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: baseline;
+}
+p#carai{
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #21733C;
+    text-align: center;
+    color: white;
+}
+

@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #3d416e;
+    font-family: Tahoma;
+    color: white;
+    font-family: Poppins;
+    text-shadow: black;
+}
+h1{
+    font-size: 32px;
+}
+select{
+    width: 101.9%;
+    font-size: 15px;
+    color: grey;
+    padding: 0.7rem 0;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+input.text{
+    width: 100%;
+    margin: 0 auto 20px 0;
+    height: 2em;
+    border: 0 solid black;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+}
+.checkbox{
+    display: inline;
+}
+form{
+    width: 60vh;
+    max-width: 800px;
+    min-width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #007876;
+    border-radius: 10px;
+}
+fieldset{
+    border: none;
+}
+h1 , #description{
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Poppins;
+}
+fieldset{
+    display: block;
+}
+input{
+    display: block;
+}
+#submit{
+    margin: 1rem auto;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: white;
+    background-color: #FF66D8;
+    font-weight: bold;
+}
+#recommend{
+    display: inline;
+}
+#check{
+    display: inline;
+}
+.inline{
+    display: inline;
+}
+#dropdown{
+    display: block;
+}

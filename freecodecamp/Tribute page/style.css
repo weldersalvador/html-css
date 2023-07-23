@@ -66,7 +66,12 @@ li{
     
     
 }
-article p#fala{
+i#one{
+    display: block;
+    padding: 40px 0;
+}
+i#two{
+    display: block;
     padding-bottom: 40px;
 }
 

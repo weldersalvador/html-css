@@ -30,6 +30,7 @@ body{
     flex-direction: column;
     text-align: center;
     background-image: linear-gradient(180deg , hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    min-width: 300px;
 }
 #result{
     color: hsl(241, 100%, 89%);
@@ -77,6 +78,7 @@ p{
     align-items: center;
     justify-content: space-around;
     font-weight: 500;
+    min-width: 300px;
 }
 .summary p{
     flex-direction: column;
@@ -154,19 +156,25 @@ img{
     padding-bottom: 10px;
     color: hsl(234, 85%, 45%);
 }
-a{
+button{
     display: block;
     width: 60%;
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-image: linear-gradient(180deg, hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    background-color: hsl(224, 30%, 27%);
     color: white;
     font-family: Hanken Grotesk;
     font-size: 1.05em;
     text-decoration: none;
     text-align: center;
+    cursor: pointer;
 }
-a:hover{
-    background-color: hsl(224, 30%, 27%);
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
+}
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
 }

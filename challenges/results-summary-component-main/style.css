@@ -108,6 +108,19 @@ img{
     height: 18px;
     padding-left: 4px;
 }
+#score{
+    padding-left: 44%;
+    font-size: 1em;
+    margin-top: -0.3px;
+}
+#score-two{
+    padding-left: 50%;
+    font-size: 1em;
+    margin-top: -0.3px;
+}
+#total{
+    color: grey;
+}
 #memory{
     display: flex;
     width: 80%;
@@ -174,7 +187,40 @@ button:hover{
     background-image: linear-gradient(hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
 }
 @media (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
     .container{
         flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #summary{
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    #reaction{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    #memory{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    #verbal{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    #visual{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    #scored{
+        padding-bottom: 10px;
+    }
+    button:active{
+        background-image: linear-gradient(hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
     }
 }

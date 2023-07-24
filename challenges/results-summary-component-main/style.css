@@ -109,12 +109,17 @@ img{
     padding-left: 4px;
 }
 #score{
-    padding-left: 44%;
+    padding-left: 41.5%;
+    font-size: 1em;
+    margin-top: -0.3px;
+}
+#score-one{
+    padding-left: 42.8%;
     font-size: 1em;
     margin-top: -0.3px;
 }
 #score-two{
-    padding-left: 50%;
+    padding-left: 48%;
     font-size: 1em;
     margin-top: -0.3px;
 }

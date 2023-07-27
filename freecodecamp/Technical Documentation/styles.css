@@ -81,12 +81,13 @@ nav .nav-link{
 }
 .main-section li{
     color: #4D4E53;
-    max-width: 100%;
+    min-width: 100%;
     text-shadow: none;
     font-weight: lighter;
     line-height: 25px;
     margin-top: -5px;
     margin-bottom: 20px;
+    border-width: 100%;
 }
 .code{
     display: flex;
@@ -116,7 +117,6 @@ code{
         left: 0;
         padding: 0;
         border: none;
-        z-index: 1;
         min-width: 100%;
         color: #4D4E53;
         
@@ -133,8 +133,8 @@ code{
         margin-top: 830px;
         margin-right: 50px;
         text-align: center;
-        margin-left: -170px;
-        
+        margin-left: -130px;
+        min-width: 200px;
         color: #4D4E53;
         
     }
@@ -146,8 +146,8 @@ code{
         justify-content: center;
     }
     .code{
-        max-width: 450px;
-        
+        max-width: 390px;
+        height: 80px;
     }
     ul{
         display: block;

@@ -5,6 +5,7 @@
 cinza: #818185
 branco: #ffffff
 preto: #000000
+?: #f7f7f7
 */
 
 html{
@@ -22,18 +23,18 @@ nav header h1{
     font-size: 28px;
     font-weight: 100;
 }
-nav{
+#navbar{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    width: 30%;
+    width: 300px;
     border-bottom: none;
     border-right: 100%;
     font-weight: normal;
     position: fixed;
-    min-width: 280px;
-    max-width: 280px;
+    min-width: 290px;
     height: 100%;
+    left: 0;
     
 }
 nav .nav-link{
@@ -47,41 +48,82 @@ nav .nav-link{
 }
 #main-doc{
     display: block;
-    position: absolute;
-    margin-left: 200px;
+    margin-left: 150px;
     
 }
 .main-section{
-    margin-left: 16%;
+    margin-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 .main-section h1{
     font-weight: 100;
     font-size: 1.8em;
 }
 .main-section p{
-    text-align: justify;
     color: #818185;
-    text-justify: auto;
-    text-shadow: none;
+    text-shadow: 6px black;
     font-weight: lighter;
     line-height: 25px;
     margin-top: -5px;
     margin-bottom: 20px;
-    text-align: left;
+    min-width: 400px;
+    max-width: 100%;
 }
 .main-section li{
-    text-align: justify;
     color: #818185;
-    max-width: 550px;
-    text-justify: auto;
+    max-width: 100%;
     text-shadow: none;
     font-weight: lighter;
     line-height: 25px;
     margin-top: -5px;
     margin-bottom: 20px;
-    text-align: left;
 }
-
+.code{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px 0 20px 20px;
+    width: 550px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+code{
+    line-height: 25px;
+}
+#ecma{
+    margin-top: 20px;;
+}
+@media only screen and (max-width: 800px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #navbar{
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 0;
+        
+        max-height: 275px;
+        width: 100%;
+        border: none;
+        z-index: 1;
+    
+    }
+    #main-doc{
+        text-align: center;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 800px;
+        text-align: center;
+        margin-left: -150px;
+        
+    }
+}
 
 

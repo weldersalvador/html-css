@@ -108,8 +108,6 @@ code{
     body{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
     }
     #navbar{
         position: absolute;
@@ -117,10 +115,10 @@ code{
         top: 0;
         left: 0;
         padding: 0;
-        max-height: 275px;
-        width: 100%;
         border: none;
         z-index: 1;
+        min-width: 100%;
+        
     
     }
     .nav-link:last-of-type{
@@ -134,9 +132,32 @@ code{
         margin-top: 830px;
         margin-right: 50px;
         text-align: center;
-        margin-left: -150px;
-        min-width: 500px;
+        margin-left: -180px;
+        min-width: 650px;
         
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .code{
+        max-width: 450px;
+        
+    }
+    ul{
+        display: block;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        padding-inline-start: 40px;
+    }
+    li{
+        list-style-position: initial;
+        position: relative;
+        display: list-item;
+        text-align: -webkit-match-parent;
     }
 }
 

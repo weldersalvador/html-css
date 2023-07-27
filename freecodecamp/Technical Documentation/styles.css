@@ -126,6 +126,9 @@ code{
         border-bottom: 1px solid black;
         
     }
+    #navbar header{
+        padding-bottom: 20px;
+    }
     #main-doc{
         text-align: center;
         position: relative;

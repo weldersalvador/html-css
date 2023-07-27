@@ -118,6 +118,7 @@ code{
         border: none;
         z-index: 1;
         min-width: 100%;
+        color: #4D4E53;
         
     
     }
@@ -132,8 +133,9 @@ code{
         margin-top: 830px;
         margin-right: 50px;
         text-align: center;
-        margin-left: -180px;
-        min-width: 650px;
+        margin-left: -170px;
+        
+        color: #4D4E53;
         
     }
     .main-section{

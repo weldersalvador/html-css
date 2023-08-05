@@ -5,6 +5,8 @@
     padding: 0;
 }
 body{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
@@ -115,4 +117,12 @@ footer p{
 }
 #name:hover{
     color: hsl(178, 100%, 50%);
+}
+#attribution{
+    margin-top: 20px;
+    color: hsl(178, 100%, 50%);
+}
+#attribution a{
+    text-decoration: none;
+    color: #6b298a;
 }

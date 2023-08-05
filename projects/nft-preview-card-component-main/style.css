@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: -8px 20px 16px 3px #0000004a;
+}
+#equilibrium{
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#equilibrium:hover{
+    background-image: url('images/icon-view.svg');
+    background-position: center;
+    opacity: 0.4;
+}
+#nft:hover{
+    background-image: url('images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+#product{
+    text-decoration: none;
+    color: white;
+}
+#product:hover{
+    color: hsl(178, 100%, 50%);
+}
+#nft{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+section{
+    margin-left: 30px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+#description{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    padding-right: 50px;
+    font-size: 18px;
+    color: hsla(215, 52%, 70%, 0.712);
+    font-weight: 100;
+
+}
+#value{
+    margin-top: 20px;
+    color: hsl(178, 100%, 50%);
+    margin-left: -150px;
+}
+#clock{
+    margin-right: -155px;
+}
+hr{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    border-color: hsl(215, 32%, 27%);
+    border-top: none;
+    margin-bottom: 10px;
+    
+}
+#values{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#time{
+    margin-right: 30px;
+    color: hsl(215, 51%, 70%);
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-left: -120px;
+    justify-content: center;
+    margin-top: 15px;
+}
+footer picture img{
+    width: 25%;
+}
+footer p{
+    margin-left: -90px;   
+    color: hsl(215, 51%, 70%);
+}
+#name{
+    color: white;
+    text-decoration: none;
+}
+#name:hover{
+    color: hsl(178, 100%, 50%);
+}

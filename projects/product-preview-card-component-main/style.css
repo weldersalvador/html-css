@@ -40,16 +40,18 @@ img{
     background-color: white;
     width: 50%;
     border-radius: 0 10px 10px 0;
+    box-sizing: border-box;
 }
 h1{
     margin-left: 20px;
     margin-top: 50px;
+    padding-right: 40px;
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
 
 }
 #text{
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 20px;
     padding-right: 30px;
     text-align: justify;
@@ -57,9 +59,8 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     opacity: 0.6;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.021);
-    color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    color: hsl(212, 21%, 14%);
+    font-size: 15px;
 }
 .prices{
     display: flex;
@@ -67,17 +68,32 @@ h1{
     margin-left: 10px;
 }
 #price{
-    margin: 20px;
+    margin: 10px;
     font-size: 40px;
     display: inline;
     color: hsl(158, 36%, 37%);
+    font-weight: bold;
 }
 #previous-price{
     text-decoration: line-through;
     display: inline;
-    margin-top: 35px;
+    padding-top: 25px;
+    margin-left: 10px;
+    color: grey;
+    font-weight: 500;
+}
+#icon-cart{
+    display: inline;
+    width: 18px;
+    height: 18px;
+    margin-left: 90px;
+    margin-top: 20px;
+    position: absolute;
+    
+    
 }
 input{
+    margin-top: 10px;
     width: 80%;
     margin-left: 30px;
     height: 40px;
@@ -85,4 +101,54 @@ input{
     border: none;
     color: white;
     background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+input:hover{
+    background-color: hsl(158, 42%, 23%);
+}
+#perfume{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: hsla(228, 12%, 48%, 0.685);
+}
+@media (max-width: 630px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+        
+    }
+    #description{
+        width: 100%;
+        margin-top: -120px;
+        border-radius: none;
+    
+    }
+    #text{
+        font-size: 17px;
+    }
+    input{
+        margin-bottom: 30px;
+    }
+    #photo{
+        background-image: url('images/image-product-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+        
+    }
+    img{
+        display: none;
+    }
+    #icon-cart{
+        margin-left: 155px;
+    }
 }

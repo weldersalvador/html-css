@@ -20,7 +20,7 @@ main{
     flex-direction: column;
     height: 650px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: hsl(216, 50%, 16%);
     box-shadow: -8px 20px 16px 3px #0000004a;
 }
@@ -72,9 +72,10 @@ h2{
     margin-top: 20px;
     color: hsl(178, 100%, 50%);
     margin-left: -150px;
+    font-weight: 600;
 }
 #clock{
-    margin-right: -155px;
+    margin-right: -150px;
 }
 hr{
     width: 85%;
